@@ -10,11 +10,11 @@
     align-items: center;
     gap: 20px;
     cursor: pointer;
-    color: #bf8743;
+    /*color: #bf8743;*/
 }
 
 .menu-list-container {
     list-style: none;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
