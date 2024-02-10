@@ -1,7 +1,8 @@
 .tree-view-container {
     min-height: 100vh;
     width: 350px;
-    background: rgb(0, 71, 110);
+    background: #008080;
+    color: #bf8743;
 }
 
 .menu-item{
@@ -9,7 +10,7 @@
     align-items: center;
     gap: 20px;
     cursor: pointer;
-    color: #fff;
+    color: #bf8743;
 }
 
 .menu-list-container {

@@ -3,13 +3,13 @@ import MenuItem from "./menu-item";
 
 function MenuList({ list = []}) {
     return (
-        <div className={"menu-lest-container"}>
+        <ul className={"menu-list-container"}>
             {
                 list && list.length > 0
-                    ? list.map(listItem => <MenuItem item = {listItem}/>)
+                    ? list.map((listItem, index) => <MenuItem key={index} item = {listItem} />)
                     : null
             }
-        </div>
+        </ul>
     );
 }
 
