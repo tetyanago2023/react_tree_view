@@ -3,6 +3,7 @@
     width: 350px;
     background: #008080;
     color: #bf8743;
+    font-weight: bold;
 }
 
 .menu-item{
@@ -10,7 +11,8 @@
     align-items: center;
     gap: 20px;
     cursor: pointer;
-    /*color: #bf8743;*/
+    color: #bf8743;
+    font-weight: bold;
 }
 
 .menu-list-container {
